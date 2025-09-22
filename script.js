@@ -19,7 +19,7 @@ function next() {
 
 function prev() {
     index = (index - 1 + texts.length) % texts.length;
-    showtext
+    showtext()
 }
 
 
@@ -32,6 +32,7 @@ function light(){
         sec.classList.toggle("light");
     })
    
+
 
 
 
